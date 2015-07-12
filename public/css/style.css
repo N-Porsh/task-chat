@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/* Styles: */
+h3{
+    font-size: 16pt;
+}
+body {
+    width:800px;
+    margin: 30px auto;
+    font-family: Arial;
+    font-size: 14px;
+}
+a {
+    color:#222222;
+    text-transform: none;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.clr {
+    clear:both;
+}
+hr {
+    margin: 15px 0;
+    border: 0;
+    height: 3px;
+    background-color: #cccccc;
+}
+
+.container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    clear: both;
+}
+.container a {
+    color: #222;
+}
+
+.container input {
+    background-color: #f5f5f5;
+    border: 0;
+    padding: 5px 10px;
+}
+.container input[type="submit"] {
+    background-color: #ccc;
+    cursor: pointer;
+}
+.container input[type="submit"]:hover {
+    background-color: #222;
+    color: #fff;
+}
+.container button {
+    background-color: #ccc;
+    border: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.container button:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+#users, #chat-box {
+    float:left;
+}
+#users, #chat-msg-area, #chat-content {
+    overflow-y: scroll;
+}
+#users {
+    width: 170px;
+    height: 400px;
+}
+#chat-box {
+    width: 585px;
+    height: 400px;
+}
+#chat-content {
+    background-color: #F4F9FA;
+    height: 325px;
+    background-color: #F4F9FA;
+    padding: 0 10px;
+}
+#chat-msg-area {
+    width: 500px;
+    height: 69px;
+    resize: none;
+}
+#chat-form textarea {
+    float: left;
+}
+#chat-form input[type="submit"] {
+    height: 75px;
+    width: 79px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#users-list {
+    margin-top: 10px;
+}
+#users-list li {
+    padding: 3px 0;
+}
+#users-list li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.msg {
+    margin: 15px 0;
+}
+.msg span {
+    font-weight: bold;
+}
+.msg p {
+    display: inline;
+}
+#auth label{
+    font-size: 18px;
+}
+#login label, #logout label {
+    font-weight: bold;
+}
